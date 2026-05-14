@@ -1,0 +1,6 @@
+- name: connectivity test
+  hosts: all
+  tasks:
+    - name: ping module
+      ping:
+
